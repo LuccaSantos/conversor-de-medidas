@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: Helvetica, sans-serif, Arial;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* hearder */
+    header {
+        height: 230px;
+        margin-top: 25px;
+    }
+    /* conversor */
+    .form {
+        height: 250px;
+        width: 250px;
+        border-radius: 10px;
+
+        margin-right: auto;
+        margin-left: auto;
+        padding: 5px;
+
+        text-align: center;
+        background-color: gray;
+    }
+    #value1 {
+        margin-bottom: 5px;
+    }
+    label, h4 {
+        font-size: 20px;
+    }
+    /* footer */
+    footer {
+        margin-top: 20px;
+    }
+    footer a {
+        color: #212529;
+    }
+    footer a:hover {
+        color: #212529;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    /* header */
+    header {
+        margin-top: 20px;
+    }
+    /* conversor */
+    .main {
+        /* height: 550px; */
+    }
+    .form {
+        height: 230px;
+        width: 250px;
+        border-radius: 10px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 5px;
+
+        text-align: center;
+        background-color: gray;
+    }
+    #value1 {
+        margin-bottom: 5px;
+    }
+    label, h4 {
+        font-size: 20px;
+    }
+
+    /* footer */
+    footer {
+        margin-top: 100px;
+    }
+    footer a {
+        color: #212529;
+    }
+    footer a:hover {
+        color: #212529;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+    /* como faz???? */
+} 
